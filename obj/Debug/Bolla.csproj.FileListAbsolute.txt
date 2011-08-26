@@ -1,0 +1,5 @@
+C:\Users\Gabriel\Dropbox\OnlineBussiness\Coupon Business\Code\trunk\Bolla\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gabriel\Dropbox\OnlineBussiness\Coupon Business\Code\trunk\Bolla\bin\Bolla.dll
+C:\Users\Gabriel\Dropbox\OnlineBussiness\Coupon Business\Code\trunk\Bolla\bin\Bolla.pdb
+C:\Users\Gabriel\Dropbox\OnlineBussiness\Coupon Business\Code\trunk\Bolla\obj\Debug\Bolla.dll
+C:\Users\Gabriel\Dropbox\OnlineBussiness\Coupon Business\Code\trunk\Bolla\obj\Debug\Bolla.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DbContext" />
+  <nestedChildShapes>
+    <classShape Id="5aa2d6e2-c4fb-4311-ba34-17878881344a" absoluteBounds="0.75, 0.75, 2, 1.75354248046875">
+      <DataClassMoniker Name="/DbContext/Link" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc757174-ceff-466f-9177-a73b1a5e1448" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.19354248046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a52aeab-e302-4990-909e-a3d4e5555b12" absoluteBounds="3.75, 0.75, 2, 1.5891951497395831">
+      <DataClassMoniker Name="/DbContext/Attempt" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba727a63-bc4d-4074-a385-4def641ff23c" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

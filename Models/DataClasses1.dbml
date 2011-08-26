@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DbContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Links" Member="Links">
+    <Type Name="Link">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ShortCode" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="RedirectUrl" Type="System.String" DbType="NVarChar(2000) NOT NULL" CanBeNull="false" />
+      <Column Name="VisitCount" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfLastVisit" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Attempts" Member="Attempts">
+    <Type Name="Attempt">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IPAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfLastAttempt" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SecondsUntilNextAttempt" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="NumberOfAttemptsSinceLastSuccess" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
